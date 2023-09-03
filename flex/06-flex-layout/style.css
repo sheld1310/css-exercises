@@ -31,14 +31,16 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 10px 50px;
+  padding: 10px;
+  margin: 16px;
   
 }
 
-.left-links, .right-links {
+.left, .right {
   display: flex;
   align-items: center;
   gap: 16px;
+  border: 2px solid red;
 }
 
 ul {
@@ -55,7 +57,7 @@ a {
   color: grey;
 }
 
-/*.content {
+.content {
   border: 2px solid red;
   margin: 100px 0;
   display: flex;
